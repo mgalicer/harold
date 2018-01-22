@@ -55,3 +55,32 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+#slider2 {
+  top: 55%;
+}
+
+#slider3 {
+  top: 70%;
+}
+
+#slider4 {
+  top: 40%;
+}
+
+#seakay-logo {
+  position: absolute;
+  display: inline-block;
+  margin: 0.8em;
+  max-width: 8em;
+}
+
+#broadband {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.container {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
