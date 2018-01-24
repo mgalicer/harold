@@ -56,6 +56,10 @@ footer.page-footer {
   margin: 0;
 }
 
+#slider1 {
+  top: 30%;
+}
+
 #slider2 {
   top: 55%;
 }
@@ -84,3 +88,8 @@ footer.page-footer {
   padding-top: 5em;
   padding-bottom: 5em;
 }
+
+.btn:hover {
+  color: #bbdefb;
+}
+

@@ -7,10 +7,11 @@
       scrollOffset: 50
     });
     $('.slider').slider({
-      height: 700,
+      height: $(window).height(),
       indicators: false,
       interval: 4000
     });
+
 
     $('select').material_select();
 
