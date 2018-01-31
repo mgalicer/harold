@@ -4,7 +4,7 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy({
-      scrollOffset: 50
+      scrollOffset: 100
     });
     $('.slider').slider({
       height: $(window).height(),

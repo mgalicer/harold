@@ -16,42 +16,44 @@
 
 </head>
 <body>
-<nav class="white" role="navigation">
-  <div class="nav-wrapper">
-    <!-- <a href="#" class="brand-logo light-blue-text text-darken-4">SEAKAY</a> -->
-    <img id="seakay-logo" src="img/seakaylogo.png">
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="#about">About</a></li>
-      <li><a href="#initiatives">Initiatives</a></li>
-      <li><a href="#broadband">Broadband</a></li>
-      <li><a href="#donate">Donate</a></li>
-    </ul>
-  </div>
-</nav>
+<div class="navbar-fixed">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper">
+      <img id="seakay-logo" src="img/seakaylogo.png">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#about">About</a></li>
+        <li><a href="#initiatives">Initiatives</a></li>
+        <li><a href="#broadband">Broadband</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
 
 
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="img/opportunities-connect.jpg">
+        <img class="responsive-img" src="img/stock-3.jpg">
         <div id="slider1" class="caption left-align">
           <h4 class="light grey-text text-lighten-3">Expanding opportunities to connect</h4>
         </div>
       </li>
       <li>
-        <img src="img/families-services.jpg"> <!-- random image -->
+        <img class="responsive-img" src="img/families-services.jpg"> <!-- random image -->
         <div id="slider2" class="caption right-align">
           <h4 class="light grey-text text-lighten-3">Connecting families to services</h4>
         </div>
       </li>
       <li>
-        <img src="img/individuals-opportunities.jpg"> <!-- random image -->
+        <img class="responsive-img" src="img/individuals-opportunities.jpg"> <!-- random image -->
         <div id="slider4" class="caption center-align">
           <h4 class="light grey-text text-lighten-3">Connecting individuals to opportunities</h4>
         </div>
       </li>
       <li>
-        <img src="img/volunteers-communities.jpg"> <!-- random image -->
+        <img class="responsive-img" src="img/volunteers-communities.jpg"> <!-- random image -->
         <div id="slider3" class="caption right-align">
           <h4 class="light grey-text text-lighten-3">Connecting volunteers to communities</h4>
         </div>
@@ -64,7 +66,7 @@
     <div class="container">
       <div id="about" class="row section scrollspy">
         <div class="col s8 offset-s2 center">
-          <h4 class="light white-text">The vision: expanding digital opportunity</h4>
+          <h4 class="light white-text">Opportunity. Broadband. <i>Everyone.</i></h4>
           <p class="light white-text">
             Seakay Inc, a California public benefit corporation, was founded upon the vision that the not for profit sector could work better for everyone. <br><br>
 
@@ -119,13 +121,13 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/phone-computer.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img class="responsive-img" src="img/stock-2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
-    <div class="section">
+    <div id="initiatives" class="section scrollspy">
       <h3 class="center">Initiatives</h3>
-      <div id="initiatives" class="row section scrollspy">
+      <div class="row section">
           <div class="col s12 m6">
             <div class="card horizontal">
               <div class="card-image">
@@ -133,10 +135,11 @@
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <p><b>Metro Connect</b> offers a solution for implementing large municipal networks in high density apartment complexes and urban neighborhoods.</p>
+                  <p>The <b>Metro Connect</b>initiative offers a solution for implementing large municipal networks in high
+                  density apartment complexes and urban neighborhoods.</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="light-blue-text darken-4">Learn more</a>
+                  <a href="white-papers/MetroConnectOverview.pdf" target="_blank" class="light-blue-text darken-4">Learn more</a>
                 </div>
               </div>
             </div>
@@ -147,10 +150,11 @@
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <p><b>Connected Grid</b> seeks to use the broadband network to enable energy consumers to work with utilities to integrate renewable energy and manage electric power efficiency using home area networks.</p>
+                  <p><b>Connected Grid</b> seeks to use the broadband network to enable consumers to work with utilities
+                  to manage electric power efficiency and integrate renewable energy.</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="light-blue-text darken-4">Learn more</a>
+                  <a href="white-papers/ConnectedGridOverview.pdf" target="_blank" class="light-blue-text darken-4">Learn more</a>
                 </div>
               </div>
             </div>
@@ -164,10 +168,11 @@
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <p><b>Connected Communities</b> enables ubiquitous internet access over large underserved rural areas.<br><br></p>
+                  <p><b>Connected Communities</b> enables ubiquitous internet access using cost effective technologies to
+                  cover large, hard to access, underserved, rural communities.</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="light-blue-text darken-4">Learn more</a>
+                  <a href="white-papers/ConnectedCommunitiesOverview.pdf" target="_blank" class="light-blue-text darken-4">Learn more</a>
                 </div>
               </div>
             </div>
@@ -179,10 +184,11 @@
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <p><b>Service Learning</b> provides value to the community by supplementing technology staffing and training while providing a valuable soft skill experience learning experience to technology students.<br><br></p>
+                  <p><b>Service Learning</b> provides technology students with valuable soft skills experience while
+                  supplementing technology services in underserved communities.</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="light-blue-text darken-4">Learn more</a>
+                  <a href="white-papers/ServiceLearningOverview.pdf" target="_blank" class="light-blue-text darken-4">Learn more</a>
                 </div>
               </div>
             </div>
@@ -194,7 +200,7 @@
   <!-- Seakay Broadband -->
   <div class="section blue darken-1">
     <div class="container col s8">
-      <div id="broadband" class="center">
+      <div id="broadband" class="center scrollspy">
         <h3 class="white-text light">Seakay Broadband</h3>
         <p class="white-text light">Seakay Broadband is a deployment of cost effective technologies that supports provides high-speed fixed wireless internet service to approximately 600 square miles in underserved communities from Westport on the Mendocino Coast to the Blue Lakes area in in Lake County in California. Learn more about the available services and service area.</p><br>
         <a class="waves-effect waves-light btn blue darken-4"><i class="material-icons right">keyboard_arrow_right</i>Learn more</a>
@@ -264,15 +270,15 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/dad-daughter.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img class="responsive-img" src="img/stock-1.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer blue darken-1">
     <div class="container">
-      <div class="section" id="contact">
+      <div id="contact" class="section scrollspy">
         <div class="row">
           <div class="col s4 offset-s2">
-          <h5 class="white-text">Contact</h5>
+          <h5 class="white-text">Contact Seakay</h5>
             <form id="ajax-contact" method="post" action="mailer.php">
 
                 <input type="text" placeholder="Name" id="name" name="name" required>
