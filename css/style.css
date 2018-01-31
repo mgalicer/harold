@@ -96,3 +96,7 @@ footer.page-footer {
 #custom-padding {
   padding-top: 4em;
 }
+
+.active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
