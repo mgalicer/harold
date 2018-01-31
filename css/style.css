@@ -100,3 +100,7 @@ footer.page-footer {
 .active {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+.btn-flat {
+    text-transform: none;
+}
