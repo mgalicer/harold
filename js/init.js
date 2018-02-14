@@ -12,7 +12,6 @@
       interval: 4000
     });
 
-
     $('select').material_select();
 
         //contact form actions

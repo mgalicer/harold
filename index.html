@@ -19,7 +19,7 @@
 <div class="navbar-fixed">
   <nav class="white" role="navigation">
     <div class="nav-wrapper">
-      <img id="seakay-logo" src="img/seakaylogo.png">
+      <img id="seakay-logo" src="img/graphics/seakaylogo.png">
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#about">About</a></li>
         <li><a href="#initiatives">Initiatives</a></li>
@@ -53,8 +53,8 @@
         </div>
       </li>
       <li>
-        <img class="responsive-img" src="img/volunteers-communities.jpg"> <!-- random image -->
-        <div id="slider3" class="caption right-align">
+        <img class="responsive-img" src="img/stock-6.jpg"> <!-- random image -->
+        <div id="slider3" class="caption left-align">
           <h4 class="light grey-text text-lighten-3">Connecting volunteers to communities</h4>
         </div>
       </li>
@@ -62,9 +62,10 @@
   </div>
 
 
-  <div class="section blue darken-1">
+  <div id="about" class="scrollspy">
+    <div class="section blue darken-1">
     <div class="container">
-      <div id="about" class="row section scrollspy">
+      <div class="row">
         <div class="col s8 offset-s2 center">
           <h4 class="light white-text">Opportunity. Broadband. <i>Everyone.</i></h4>
           <p class="light white-text">
@@ -77,6 +78,7 @@
       </div>
     </div>
   </div>
+
       <!--   Icon Section   -->
   <div class="container">
     <div class="section">
@@ -109,6 +111,7 @@
         </div>
       </div>
       </div>
+  </div>
   </div>
   </div>
 
@@ -186,6 +189,8 @@
       </div>
     </div>
   </div>
+
+  <!-- Donate -->
   <div class="container">
       <div id="donate" class="section scrollspy center">
 
@@ -193,12 +198,11 @@
         <p> Please take this opportunity to contribute to the mission of Seakay. Donations are accepted through PayPal (which accepts credit card payments). Seakay, inc. is a registered 501(c)3 organization and all contributions are tax deductible to the extent permitted by law.</p>
       </div>
 
-      <div class="section">
         <div class="row">
-          <div class="col s3 offset-s3">
+          <div class="col s3 offset-s2">
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="txt">
-                <div class="input-field">
-                  <select name="pd_amount" id="pd_amount">
+                <div class="section">
+                  <select class="browser-default" name="pd_amount" id="pd_amount">
                     <option value="" disable selected>Select a Payment Amount</option>
                     <option value="25.00">$25</option>
                     <option value="40.00">$40</option>
@@ -209,34 +213,32 @@
                   </select>
                 </div>
 
-            Or type in an amount:
+                Or type in an amount:
 
-            <div class="input-field">
-              <input type="text" name="amount" id="amount" value="25.00"><br />
-              <input type="hidden" name="cmd" value="_xclick">
+                <div class="input-field">
+                  <input type="text" name="amount" id="amount" value="25.00"><br />
+                  <input type="hidden" name="cmd" value="_xclick">
 
-              <input type="hidden" name="business" value="harold@seakay.org">
-              <input type="hidden" name="item_name" value="SeaKay.org">
-              <input type="hidden" name="page_style" value="PayPal">
-              <input type="hidden" name="no_shipping" value="1">
-              <input type="hidden" name="return" value="http://www.SeaKay.org">
-              <input type="hidden" name="cancel_return" value="http://www.seakay.org">
-              <input type="hidden" name="no_note" value="1">
-              <input type="hidden" name="currency_code" value="USD">
-              <input type="hidden" name="tax" value="0">
-              <button class="waves-effect waves-light btn blue darken-4" name="submit"><i class="material-icons right">wifi</i>Donate</button>
-            </div>
-            <!-- TODO: add icon and motivational message like "support wifi for underserved communities" -->
+                  <input type="hidden" name="business" value="harold@seakay.org">
+                  <input type="hidden" name="item_name" value="Seakay.org">
+                  <input type="hidden" name="page_style" value="PayPal">
+                  <input type="hidden" name="no_shipping" value="1">
+                  <input type="hidden" name="return" value="http://www.Seakay.org">
+                  <input type="hidden" name="cancel_return" value="http://www.seakay.org">
+                  <input type="hidden" name="no_note" value="1">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="tax" value="0">
+                  <button class="waves-effect waves-light btn blue darken-4" name="submit"><i class="material-icons right">wifi</i>Donate</button>
+                </div>
           </form>
         </div>
 
-        <div class="col s4 offset-1">
-          <p>We also accept donations by check or money order. You can send your donation to:</p>
+        <div class="col s4 offset-s1">
+          <p>We also accept donations by check or money order. Send your donation to:</p>
           <p>
           SeaKay, Inc.<br>
           PO Box 78192<br>
           San Francisco, CA 94107 </p>
-        </div>
         </div>
       </div>
   </div>
@@ -274,7 +276,7 @@
           </div>
           <div class="col s4 offset-s1">
             <p class="grey-text text-lighten-4">SeaKay, Inc <br> PO Box 78192 <br> San Francisco, CA 94107 <br>888.861.1011<br>
-            <a href="mailto:contact@seakayinc.org">contact@seakayinc.org</a></p>
+            <a href="mailto:contact@seakayinc.org" class="white-text">contact@seakayinc.org</a></p>
           </div>
         </div>
       </div>
