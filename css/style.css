@@ -1,3 +1,4 @@
+
 /* Custom Stylesheet */
 /**
  * Use this file to override Materialize files so you can update
@@ -29,6 +30,7 @@ p {
     width: 100%;
   }
 
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -42,6 +44,21 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  #init-row {
+    width: 100%;
+  }
+
+  .initiatives {
+   display: none;
+  }
+
+}
+
+
+@media screen and (min-width: 600px) {
+  #mobile-initiatives {
+    display: none;
   }
 }
 
@@ -75,8 +92,8 @@ footer.page-footer {
 #seakay-logo {
   position: absolute;
   display: inline-block;
-  margin: 0.8em;
-  max-width: 10.5em;
+  margin: 0.3em;
+  max-width: 5em;
 }
 
 #broadband {
@@ -109,4 +126,13 @@ footer.page-footer {
   max-width:100%;
   height: auto;
   object-fit: cover;
+}
+
+
+#mobile-initiatives img {
+  max-width: 7em;
+}
+
+.custom-padding-mobile {
+  padding-top: 2em;
 }
