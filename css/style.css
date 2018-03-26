@@ -104,3 +104,9 @@ footer.page-footer {
 .btn-flat {
     text-transform: none;
 }
+
+.photo-size {
+  max-width:100%;
+  height: auto;
+  object-fit: cover;
+}
