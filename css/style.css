@@ -53,11 +53,18 @@ p {
    display: none;
   }
 
+  #web-donate {
+    display: none;
+  }
+
 }
 
 
 @media screen and (min-width: 600px) {
   #mobile-initiatives {
+    display: none;
+  }
+  #mobile-donate {
     display: none;
   }
 }
@@ -135,4 +142,8 @@ footer.page-footer {
 
 .custom-padding-mobile {
   padding-top: 2em;
+}
+
+#select-amount {
+  margin-top: 0;
 }
