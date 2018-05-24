@@ -136,3 +136,7 @@ footer.page-footer {
 .custom-padding-mobile {
   padding-top: 2em;
 }
+
+#select-amount {
+  margin-top: 0;
+}

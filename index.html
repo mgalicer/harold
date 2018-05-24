@@ -277,8 +277,53 @@
         <p> Please take this opportunity to contribute to the mission of Seakay. Donations are accepted through PayPal (which accepts credit card payments). Seakay, inc. is a registered 501(c)3 organization and all contributions are tax deductible to the extent permitted by law.</p>
       </div>
 
+      <div id="web-donate" class="row">
+        <div class="col s3 offset-s2">
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="txt">
+              <div class="section">
+                <select class="browser-default" name="pd_amount" id="pd_amount">
+                  <option value="" disable selected>Select a Payment Amount</option>
+                  <option value="25.00">$25</option>
+                  <option value="40.00">$40</option>
+                  <option value="50.00">$50</option>
+                  <option value="100.00">$100</option>
+                  <option value="150.00">$150</option>
+                  <option value="200.00">$200</option>
+                </select>
+              </div>
+
+              Or type in an amount:
+
+              <div class="input-field">
+                <input type="text" name="amount" id="amount" value="25.00"><br />
+                <input type="hidden" name="cmd" value="_xclick">
+
+                <input type="hidden" name="business" value="harold@seakay.org">
+                <input type="hidden" name="item_name" value="Seakay.org">
+                <input type="hidden" name="page_style" value="PayPal">
+                <input type="hidden" name="no_shipping" value="1">
+                <input type="hidden" name="return" value="http://www.Seakay.org">
+                <input type="hidden" name="cancel_return" value="http://www.seakay.org">
+                <input type="hidden" name="no_note" value="1">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="tax" value="0">
+                <button class="waves-effect waves-light btn blue darken-4" name="submit"><i class="material-icons right">wifi</i>Donate</button>
+              </div>
+          </form>
+        </div>
+        <div class="col s4 offset-s1">
+          <p>We also accept donations by check or money order. Send your donation to:</p>
+          <p>
+          SeaKay, Inc.<br>
+          PO Box 78192<br>
+          San Francisco, CA 94107 </p>
+        </div>
+      </div>
+
+
+      <section id="mobile-donate" class="center-align">
         <div class="row">
-          <div class="col s3 offset-s2">
+          <div class="col s8 offset-s2">
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="txt">
                 <div class="section">
                   <select class="browser-default" name="pd_amount" id="pd_amount">
@@ -291,35 +336,43 @@
                     <option value="200.00">$200</option>
                   </select>
                 </div>
-
-                Or type in an amount:
-
-                <div class="input-field">
-                  <input type="text" name="amount" id="amount" value="25.00"><br />
-                  <input type="hidden" name="cmd" value="_xclick">
-
-                  <input type="hidden" name="business" value="harold@seakay.org">
-                  <input type="hidden" name="item_name" value="Seakay.org">
-                  <input type="hidden" name="page_style" value="PayPal">
-                  <input type="hidden" name="no_shipping" value="1">
-                  <input type="hidden" name="return" value="http://www.Seakay.org">
-                  <input type="hidden" name="cancel_return" value="http://www.seakay.org">
-                  <input type="hidden" name="no_note" value="1">
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="hidden" name="tax" value="0">
-                  <button class="waves-effect waves-light btn blue darken-4" name="submit"><i class="material-icons right">wifi</i>Donate</button>
+                <div class="row">
+                  <div class="col s8 offset-s2">
+                    <p>Or type in an amount:</p>
+                  </div>
                 </div>
-          </form>
+                <div class="row">
+                  <div id="select-amount" class="input-field col s6 offset-s3">
+                    <input type="text" name="amount" id="amount" value="25.00"><br />
+                    <input type="hidden" name="cmd" value="_xclick">
+
+                    <input type="hidden" name="business" value="harold@seakay.org">
+                    <input type="hidden" name="item_name" value="Seakay.org">
+                    <input type="hidden" name="page_style" value="PayPal">
+                    <input type="hidden" name="no_shipping" value="1">
+                    <input type="hidden" name="return" value="http://www.Seakay.org">
+                    <input type="hidden" name="cancel_return" value="http://www.seakay.org">
+                    <input type="hidden" name="no_note" value="1">
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="tax" value="0">
+                  </div>
+                </div>
+                <button class="waves-effect waves-light btn blue darken-4" name="submit"><i class="material-icons right">wifi</i>Donate</button>
+            </form>
+          </div>
         </div>
 
-        <div class="col s4 offset-s1">
-          <p>We also accept donations by check or money order. Send your donation to:</p>
-          <p>
-          SeaKay, Inc.<br>
-          PO Box 78192<br>
-          San Francisco, CA 94107 </p>
+        <div class="row">
+          <div class="col s10 offset-s1">
+            <p>We also accept donations by check or money order. Send your donation to:</p>
+            <p>
+            SeaKay, Inc.<br>
+            PO Box 78192<br>
+            San Francisco, CA 94107 </p>
+          </div>
         </div>
-      </div>
+
+    </div>
   </div>
 
   <div class="parallax-container valign-wrapper">
